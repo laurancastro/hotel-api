@@ -18,7 +18,7 @@ origins = [
     "http://localhost", "http://localhost:8080", "http://127.0.0.1:8080",
     "https://hotel-app-equipo13.herokuapp.com", "https://hotel-app-equipo13.herokuapp.com/",
     "http://127.0.0.1:8081", "http://hotel-app-equipo13.herokuapp.com"
-]
+   ]
 middleware = [Middleware(
     CORSMiddleware, allow_origins=origins,
     allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
